@@ -10,31 +10,31 @@ To write a program to implement Stochastic Gradient Descent (SGD) Regressor for 
 
 ## Algorithm-
 
-Import necessary libraries (pandas, numpy, sklearn, matplotlib).
+1.Import necessary libraries (pandas, numpy, sklearn, matplotlib).
 
-Load the dataset using pandas.
+2.Load the dataset using pandas.
 
-Preprocess the data:
+3.Preprocess the data:
 
-Drop unnecessary columns (e.g., CarName, car_ID).
+4.Drop unnecessary columns (e.g., CarName, car_ID).
 Convert categorical variables using one-hot encoding.
 Split the dataset into features (X) and target (Y), then into training and testing sets.
 
-Standardize the features and target using StandardScaler.
+5.Standardize the features and target using StandardScaler.
 
-Initialize the SGDRegressor model with appropriate parameters.
+6.Initialize the SGDRegressor model with appropriate parameters.
 
-Train the model on the training data.
+7.Train the model on the training data.
 
-Predict the target values for the test data.
+8.Predict the target values for the test data.
 
-Evaluate the model using Mean Squared Error and R² score.
+9.Evaluate the model using Mean Squared Error and R² score.
 
-Display model coefficients and intercept.
+10.Display model coefficients and intercept.
 
-Visualize actual vs predicted values with a scatter plot.
+11.Visualize actual vs predicted values with a scatter plot.
 
-End of workflow.
+12.End of workflow.
 
 ## Program:
 ```
@@ -107,6 +107,7 @@ plt.show()
 
 ## Model cofficients -
 <img width="865" height="237" alt="4" src="https://github.com/user-attachments/assets/bfb1dabf-1319-4662-a920-7716ebf550b4" />
+
 ## Visualization Graph -
 <img width="865" height="577" alt="5" src="https://github.com/user-attachments/assets/cb5cb8c1-a9d7-4bcc-8d6d-4c1ba1e88451" />
 
